@@ -1,0 +1,45 @@
+1. How many ping pong balls would it take to fill an average-sized school bus? Describe each step in your thought process.
+
+Strategy:
+The general idea behind this problem is to find volume of an average bus and divide it by the volume of a ping pong ball.  I assume that this is meant to be an estimation problem, so all values used to get to my solution will be estimations. Here is my thought process:
+
+Method:
+A school bus is essentially a large rectangular block.  The volume of the bus can be roughly calculated by multiplying the length, width and height of the interior of bus.  However you would also have to subtract the volume of the seats and considering some special nuances in the driver's section of the bus.
+
+Length:
+I estimate that there are about 12 rows of seats on each side of the aisle in an average school bus.  I think that the distance from the back of one seat to the back of the seat in front of it would be approximately 3 feet. This would give me and length of 36 feet for the passenger portion of the bus.  I would estimate that the driver section would be slightly larger at about 4 feet in length.  This would give me a total of 40 feet for the length of the rectangular block.
+
+Height:
+Based on my experience of being in a school bus and using my own height of 5 feet 10 inches as a reference point, I would estimate that the height of the rectangular block to be about 6.5 feet  I think that this is a reasonable estimate because I think that a height of 6.5 feet would allow most people to board the bus without having to duck their head down.
+
+Width:
+I order to calculate the width of the school bus I'm going to add the width of the two rows of seats plus the width of the aisle.  I'm going to estimate that the width of each row of seats is about 3.5 feet.  Being fairly average in terms of size and weight and using my own body as a reference I think that, when sitting, the widths of most peoples laps would fall between 1.5 to 2 feet.  Since usually two people can fit snuggly in one seat, I think the 3.5 feet is a reasonable estimate for the width of the seat.  Based on my own experience, I've found that the aisle is usually a tight fit, but just width enough to allow most people to get to their seats without too much inconvenience.  For this reason, I estimate that the width of the aisle is also the minimum lap width of 1.5 feet.  Therefore, I estimate that the sum of the afformentioned widths and the width of the school bus would be about 8.5 feet.
+
+Rough Bus Interior Volume Calculation:  Considering my length, width and height estimations, the volume should work out to be 2210 cubic feet.  
+
+Subtracting Passenger Seat Volume:
+However, it is neccessary that the space taken up by the seats be removed from the calculation. To do this I am going to estimate the volume of the bottom and back cushions of each seat and multiply it by 24 to account for each of the passenger seats on the bus.  Then I'm going to consider the volume of the metal supports holding up the seats and add that to the total seat volume. For the bottom cushion, I've already estimated that the length of the cushion to be 3.5 feet.  For the width of this cushion I will make an estimate of 1.5 feet.  Since I've estimated that the distance between the back of one seat to the back of another is 3 feet, I think that it is reasonable to assume that 1.5 feet would provide adequate space to sit as well as an adequate amount of leg room between the seats.  This gives us a 3.5ft by 1.5ft seat.  For the thickness of the cushions, I would say that 4 inches would be a reasonable estimate.  In most school buses that I've ridden, I've found that the bottom and back cushions are usually about the same thickness, so I will also use 4 inches for the thickness of the back cushion.  So far this allows me to calculate the volume of a single bottom cushion to be 1.75 cubic feet.  The final estimation that I need to make is the height of the back cushion. Keeping in mind that the total height of the bus is 6.5 feet and that the height of the seats is about half the height of the bus, I would estimate that there is 3 feet of head room and that the seats are about 1.5 feet off the ground, leaving 2 feet for the height of the back cushion.  This gives us a 3.5ft x 2ft x.33ft cushion which takes up a space of 2.33 cubic feet. Adding the two cushion volume together produces a total cushion volume of 4.08 cubic feet. The only remaining volume to calculate for the seat is the volume of the metal supports holding up the seat.  I'm assuming that there are 4 supports hold up each seat and that each support is a rectangular block.  Based on my previous estimate each support should be 1.5 feet tall.  I'm going to estimate that the support is both 1 inch wide and 1 inch long. This would give each support a volume of .01 cubic feet which would boost the toal volume of each seat to 4.12 cubic feet. Since there are 24 seats on the bus we would need to subtract 98.88 cubic feat from the rough calculation.
+
+Subtracting Bus Driver's Seat Volume:
+
+In addition to the volume of the passenger's seats, the volume of the driver's seat has to be subtracted from the rough total.  Since only one person sits in this seat I'm going to estimate that the driver seat in about the same dimensions as the passenger seat except the lateral width of the seat would be half. This would give us a 1.75 x 1.5 x .33 bottom cushion and a 1.75 x 2 x .33 back cushion, producing a total volume of 2.04 cubic feet. Usually the buses in that I ridden on the driver's seat is support by a solid block rather than several metal supports.  To calculate the area of this block I can use my 1.75 lateral width estimate, my 1.5 height estimate and my 1.5 longitudinal length estimate of 1.5 feet to  get a total volume of 3.94 for the support block. This produces a total volume of 5.98 cubic feet for the driver's seat which will also be subtracted from the rough total.
+
+Adding the volume of stair space:
+
+Finally the space of the stairs in the front of the bus must be added to the rough estimate.  In the buses that I've ridden there are usually three steps in the stairs in the front entrance to the bus.  I would estimate that the front entrance is 3 feet wide and that each step is about a foot tall and a foot wide.  The space taken up with each step can be represent by rectangular blocks. Each rectangular block would take up 3 cubic feet of space.  The first step would have 3 of these blocks to fill the vertical space between the first and third step. With this in consideration, the second step would take two blocks and the third step would take one block.  This totals out 6 3-cubic-feet blocks, which add a volumen of 18 cubic feet to the rough total.
+
+Final Volume of the Bus:
+
+Rough Estimate - Passenger Seat Volume - Driver Seat Volume + Stair Space Volume = Final Bus Volume.
+2210 cubic feet - 98.88 cubic feet - 5.98 cubic feet + 18 cubic feet = 2123.14 cubic feet.
+
+Volume of a Single Ping Pong Ball
+
+I would estimate that the diameter of a standard ping pong ball is 1 inch. This means that the radius of the sphere would be half an inch.  With this value I can use the folumula for the volume of a sphere 4/3 * pi * .04^3  to get the volume of the ping pong ball. This amounts to a volume of .00026 cubic feet.
+
+The Final Answer:
+
+Finally we can divide the volume of the bus by the volume of a single ping pong ball to determine a rough estimate of how many ping pong balls can fit into a school bus.
+2123.14/.00026 = 8165923. 077
+
+So my final answer is 8,165,923 Ping Pong balls.

@@ -1,0 +1,72 @@
+body, html {height: 100%; width:100%; padding: 0; margin:0; }
+
+#header
+{
+	height: 20%;
+	width: 100%;
+	margin: 0 auto;
+	background-color: Red;
+}
+
+#midwrapper
+{
+	height:auto;
+	margin: 0 auto;
+
+}
+
+#left
+{
+
+	float:left;
+	height: 70%;
+	width: 17%;
+
+	background-color: Gray;
+}
+#content
+{
+	float:left;
+	height: 70%;
+	overflow: auto;
+	width:66%;
+	background-color: white;
+}
+
+#text{
+
+padding: 10px;
+}
+
+#title{
+	clear: both;
+	width: 306px;
+	font-size: 30px;
+	margin: 0px auto;
+}
+
+#floater{
+	
+	float: left;
+	height: 50%;
+	margin-bottom: -10px;
+	
+}
+
+#right
+{
+	float:left;
+	height: 70%;
+	width: 17%;
+
+	background-color: Gray;
+}
+#footer
+{
+
+	clear: both;
+	height: 10%;
+	width: 100%;
+	margin: 0 auto;
+	background-color: Red;
+}

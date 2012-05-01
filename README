@@ -1,1 +1,10 @@
 This project repository is for IGN's Code Foo 2 Challenge.
+
+Question 1 is answered in problem1.txt.
+My liquid layout is index.html in the LiquidLayout directory.
+My license plate pattern generator program is a Java program that is located in LicensePlates/src. In this directory there is a executable jar file called LPG.jar from which you can run the program.  The source code is Solution.java
+My introduction video is Introduction.mp4.
+Finally my Connect Four game is a web based javascript/jquery game.  You can play it by opening the connectfour.html file in the ConnectFour directory.
+
+Thank you for your consideration!
+

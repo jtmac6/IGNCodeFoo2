@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="connectfour.js"></script>
+<link href="connectfour.css" rel="stylesheet" type="text/css" />
+
+<script>
+$(document).ready(function(){
+	
+	
+	
+	});
+
+</script>
+
+<title>Connect Four</title>
+</head>
+
+<h1 id="heading"> IGN Code Foo - Connect 4 </h1>
+
+<body>
+
+<div id="boardchips" class="chips"></div>
+<div id="content">
+
+    <div id="chipcontainer">
+    
+        <div id="blackchips" class="chips">
+            <a href="#" onclick="ConnectFour.DropChip(0,1)"><img id="bchip0" class="chip" src="Images/Black-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(1,1)"><img id="bchip1" class="chip" src="Images/Black-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(2,1)"><img id="bchip2" class="chip" src="Images/Black-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(3,1)"><img id="bchip3" class="chip" src="Images/Black-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(4,1)"><img id="bchip4" class="chip" src="Images/Black-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(5,1)"><img id="bchip5" class="chip" src="Images/Black-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(6,1)"><img id="bchip6" class="chip" src="Images/Black-Chip.png" /></a>
+        </div>
+        
+        <div id="redchips" class="chips">
+            <a href="#" onclick="ConnectFour.DropChip(0,2)"><img id="rchip0" class="chip" src="Images/Red-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(1,2)"><img id="rchip1" class="chip" src="Images/Red-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(2,2)"><img id="rchip2" class="chip" src="Images/Red-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(3,2)"><img id="rchip3" class="chip" src="Images/Red-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(4,2)"><img id="rchip4" class="chip" src="Images/Red-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(5,2)"><img id="rchip5" class="chip" src="Images/Red-Chip.png" /></a>
+            <a href="#" onclick="ConnectFour.DropChip(6,2)"><img id="rchip6" class="chip" src="Images/Red-Chip.png" /></a>
+        </div>
+
+    </div>
+    
+    <div id="board">
+    <img src="Images/Board.png" />
+    </div>
+
+    <div id="buttondiv"><a id="newgamebutton" class="linkbutton" href="#" onclick="ConnectFour.DisplayGameModes()">New Game</a> <!--<a id="helpbutton" class="linkbutton" href="#" onclick="ConnectFour.DisplayHelp()">Help</a>--></div>
+    <div id="gamemodes"><a id="CPUbutton" class="linkbutton" href="#" onclick="ConnectFour.StartNewGame(1)">Vs. CPU</a> <a id="Humanbutton" class="linkbutton" href="#" onclick="ConnectFour.StartNewGame(2)">Vs. Human</a></div>
+    
+    
+   <!-- 
+   			Removed the Help feature due to the UI being clunky, might add it back in later..Shouldn't be too hard for people to figure the game out.
+   
+   <div id="helpdiv">
+    	<p id="helpmsg1" class="helpmsg">Click the new game button to begin.</p>
+        <p id="helpmsg2" class="helpmsg"> Select a game mode. </p>
+    	<p id="helpmsg3" class="helpmsg">You are black. The computer is red. Click any of the chips to drop them into the grid. Connect four chips in a row to win. Good Luck!</p>
+        <p id="helpmsg4" class="helpmsg">Player 1 is black. Player 2 is red. Click any of the chips to drop them into the grid.  Connect four chips in a row to win. Good Luck!</p>
+    </div>-->
+
+</div>
+
+
+<div id="templates">
+
+    <img class="blackchip" src="Images/Black-Chip.png" />
+    <img class="redchip" src="Images/Red-Chip.png" />
+
+</div>
+
+
+<div id="dialogs">
+
+
+</div>
+
+</body>
+</html>
